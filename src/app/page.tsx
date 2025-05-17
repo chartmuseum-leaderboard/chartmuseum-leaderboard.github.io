@@ -121,7 +121,7 @@ export default function Page() {
               <span className="font-bold">93%</span>.
             </em>{" "}
             Examples from ChartMuseum are available{" "}
-            <a href="" className="custom-link">
+            <a href="/examples" className="custom-link">
               here
             </a>.
           </p>
