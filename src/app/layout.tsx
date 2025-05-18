@@ -7,7 +7,7 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ChartMuseum Leaderboard",
+  title: "ChartMuseum",
   description: "ChartMuseum Leaderboard",
   icons: {
     icon: '/site-logo.png',
