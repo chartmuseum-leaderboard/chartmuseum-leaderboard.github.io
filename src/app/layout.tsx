@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ChartMuseum Leaderboard",
   description: "ChartMuseum Leaderboard",
+  icons: {
+    icon: '/site-logo.png',
+  },
 };
 
 export default function RootLayout({
