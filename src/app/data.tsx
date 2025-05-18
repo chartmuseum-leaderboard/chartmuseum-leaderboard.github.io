@@ -9,7 +9,7 @@ export const scoresData: ModelData[] = [
     synthesis: 13.5,
     "visual/text": 18.4,
     overall: 16.0,
-    link: "https://huggingface.co/internvl/internvl3-2b"
+    link: "https://huggingface.co/OpenGVLab/InternVL3-2B"
   },
   {
     model: "Qwen2.5-VL-3B",
@@ -19,7 +19,7 @@ export const scoresData: ModelData[] = [
     synthesis: 21.1,
     "visual/text": 26.5,
     overall: 21.0,
-    link: "https://huggingface.co/Qwen/Qwen2.5-VL-3B"
+    link: "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct"
   },
   {
     model: "Qwen2.5-VL-7B",
@@ -29,7 +29,7 @@ export const scoresData: ModelData[] = [
     synthesis: 24.8,
     "visual/text": 36.3,
     overall: 26.8,
-    link: "https://huggingface.co/Qwen/Qwen2.5-VL-7B"
+    link: "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct"
   },
   {
     model: "InternVL3-8B",
@@ -39,7 +39,7 @@ export const scoresData: ModelData[] = [
     synthesis: 24.8,
     "visual/text": 32.9,
     overall: 28.2,
-    link: "https://huggingface.co/internvl/internvl3-8b"
+    link: "https://huggingface.co/OpenGVLab/InternVL3-8B"
   },
   {
     model: "Bespoke-MiniChart-7B",
@@ -60,7 +60,7 @@ export const scoresData: ModelData[] = [
     synthesis: 30.8,
     "visual/text": 35.0,
     overall: 32.1,
-    link: "https://huggingface.co/internvl/internvl3-38b"
+    link: "https://huggingface.co/OpenGVLab/InternVL3-38B"
   },
   {
     model: "InternVL3-78B",
@@ -70,7 +70,7 @@ export const scoresData: ModelData[] = [
     synthesis: 34.6,
     "visual/text": 41.0,
     overall: 35.2,
-    link: "https://huggingface.co/internvl/internvl3-78b"
+    link: "https://huggingface.co/OpenGVLab/InternVL3-78B"
   },
   {
     model: "Qwen2.5-VL-32B",
@@ -80,7 +80,7 @@ export const scoresData: ModelData[] = [
     synthesis: 36.1,
     "visual/text": 46.2,
     overall: 38.1,
-    link: "https://huggingface.co/Qwen/Qwen2.5-VL-32B"
+    link: "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
   },
   {
     model: "Pixtral-Large-124B",
@@ -91,7 +91,7 @@ export const scoresData: ModelData[] = [
     "visual/text": 40.6,
     overall: 38.5,
     color: "#db2777",
-    link: "https://huggingface.co/pixtral/Pixtral-Large-124B"
+    link: "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
   },
   {
     model: "Qwen2.5-VL-72B",
@@ -102,7 +102,7 @@ export const scoresData: ModelData[] = [
     "visual/text": 42.3,
     overall: 38.5,
     color: "#a78bfa",
-    link: "https://huggingface.co/Qwen/Qwen2.5-VL-72B"
+    link: "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
   },
   {
     model: "Gemini-1.5-Flash",
@@ -112,7 +112,7 @@ export const scoresData: ModelData[] = [
     synthesis: 30.8,
     "visual/text": 36.3,
     overall: 31.1,
-    link: "https://ai.google.dev/gemini-api"
+    link: "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/1-5-flash"
   },
   {
     model: "Gemini-1.5-Pro",
@@ -122,7 +122,7 @@ export const scoresData: ModelData[] = [
     synthesis: 43.6,
     "visual/text": 49.6,
     overall: 41.3,
-    link: "https://ai.google.dev/gemini-api"
+    link: "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/1-5-pro"
   },
   {
     model: "GPT-4o",
@@ -133,7 +133,7 @@ export const scoresData: ModelData[] = [
     "visual/text": 50.9,
     overall: 42.2,
     color: "#6d28d9",
-    link: "https://openai.com/gpt-4o"
+    link: "https://openai.com/index/hello-gpt-4o/"
   },
   {
     model: "GPT-4.1",
@@ -144,7 +144,7 @@ export const scoresData: ModelData[] = [
     "visual/text": 54.3,
     overall: 48.4,
     color: "#1a5419",
-    link: "https://openai.com/index/new-models-and-developer-products-announced-at-devday/"
+    link: "https://openai.com/index/gpt-4-1/"
   },
   {
     model: "GPT-4.1-mini",
@@ -155,7 +155,7 @@ export const scoresData: ModelData[] = [
     "visual/text": 59.8,
     overall: 52.7,
     color: "#ddd6fe",
-    link: "https://openai.com/index/new-models-and-developer-products-announced-at-devday/"
+    link: "https://openai.com/index/gpt-4-1/"
   },
   {
     model: "Claude-3.5-Sonnet",
@@ -177,7 +177,7 @@ export const scoresData: ModelData[] = [
     "visual/text": 69.2,
     overall: 60.3,
     color: "#bef264",
-    link: "https://www.anthropic.com/news/claude-3-7"
+    link: "https://www.anthropic.com/news/claude-3-7-sonnet"
   },
   {
     model: "o3 (high)",
@@ -188,7 +188,7 @@ export const scoresData: ModelData[] = [
     "visual/text": 69.7,
     overall: 60.9,
     color: "#9d174d",
-    link: "https://openai.com/gpt-4o"
+    link: "https://openai.com/index/introducing-o3-and-o4-mini/"
   },
   {
     model: "o4-mini (high)",
@@ -199,7 +199,7 @@ export const scoresData: ModelData[] = [
     "visual/text": 68.4,
     overall: 61.5,
     color: "#fb923c",
-    link: "https://openai.com/index/new-models-and-developer-products-announced-at-devday/"
+    link: "https://openai.com/index/introducing-o3-and-o4-mini/"
   },
   {
     model: "Claude-3.7-Sonnet (think)",
@@ -210,7 +210,7 @@ export const scoresData: ModelData[] = [
     "visual/text": 71.8,
     overall: 61.7,
     color: "#f472b6",
-    link: "https://www.anthropic.com/news/claude-3-7"
+    link: "https://www.anthropic.com/news/visible-extended-thinking"
   },
   {
     model: "Gemini-2.5-Pro",
@@ -221,6 +221,6 @@ export const scoresData: ModelData[] = [
     "visual/text": 70.1,
     overall: 63.0,
     color: "#6d28d9",
-    link: "https://blog.google/technology/ai/google-gemini-2-5/"
+    link: "https://deepmind.google/technologies/gemini/pro/"
   }
 ];

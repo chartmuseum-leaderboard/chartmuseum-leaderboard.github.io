@@ -50,6 +50,16 @@ export const NavBar = () => {
   const navItems = [
     { href: "/", label: "Home" },
     { href: "/examples", label: "Examples" },
+    {
+      href: "https://github.com/Liyan06/ChartMuseum",
+      label: "Code",
+      external: true,
+    },
+    {
+      href: "https://huggingface.co/datasets/lytang/ChartMuseum",
+      label: "Dataset",
+      external: true,
+    },
   ];
 
   return (
@@ -78,8 +88,10 @@ export const NavBar = () => {
                   <Link
                     href={item.href}
                     className={`text-lg md:text-xl font-medium p-2 ${
-                      pathname === item.href ? "font-bold" : ""
+                      pathname === item.href && !item.external ? "font-bold" : ""
                     }`}
+                    target={item.external ? "_blank" : "_self"}
+                    rel={item.external ? "noopener noreferrer" : ""}
                   >
                     {item.label}
                   </Link>
@@ -103,8 +115,10 @@ export const NavBar = () => {
                   <Link
                     href={item.href}
                     className={`w-full text-lg ${
-                      pathname === item.href ? "font-bold" : ""
+                      pathname === item.href && !item.external ? "font-bold" : ""
                     }`}
+                    target={item.external ? "_blank" : "_self"}
+                    rel={item.external ? "noopener noreferrer" : ""}
                   >
                     {item.label}
                   </Link>
