@@ -144,7 +144,7 @@ export default function Page() {
                 <p className="leading-normal">
                   <br></br>The dataset is divided into dev/test splits, with 162/1000 examples, respectively.
                   The breakdown of the question types in the test set is as follows: visual (510), synthesis (133),
-                  visual/textual (234), text (123). We report model accuracies on each question type and also the overall accuracy. The overall accuracy is calculated over the entire test set.
+                  visual/textual (234), text (123). We report model accuracies on each question type and also the overall accuracy on the test set. The overall accuracy is calculated over the entire test set.
                 </p>
 
                 <p className="leading-normal">
