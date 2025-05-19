@@ -117,8 +117,8 @@ export default function Page() {
 
           <p className="leading-normal">
             <em>
-              Human performance on ChartMuseum is{" "}
-              <span className="font-bold">93%</span>.
+              Human overall accuracy on ChartMuseum is{" "}
+              <span className="font-bold">93%</span>, with <span className="font-bold">98.2%</span> on the visual reasoning questions.
             </em>{" "}
             Examples from ChartMuseum are available{" "}
             <a href="/examples" className="custom-link">
