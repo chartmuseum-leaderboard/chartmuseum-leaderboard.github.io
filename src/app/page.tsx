@@ -452,14 +452,15 @@ export default function Page() {
             <AccordionContent>
               <pre className="text-sm text-gray-600 font-mono whitespace-pre-wrap">
                 {
-//                 `@InProceedings{tang-etal-2024-minicheck,
-//   title = {MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents},
-//   author = {Liyan Tang and Philippe Laban and Greg Durrett},
-//   booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
-//   year = {2024},
-//   publisher = {Association for Computational Linguistics},
-//   url = {https://arxiv.org/pdf/2404.10774}
-// }`
+                `@misc{tang2025chartmuseum,
+      title={ChartMuseum: Testing Visual Reasoning Capabilities of Large Vision-Language Models}, 
+      author={Liyan Tang and Grace Kim and Xinyu Zhao and Thom Lake and Wenxuan Ding and Fangcong Yin and Prasann Singhal and Manya Wadhwa and Zeyu Leo Liu and Zayne Sprague and Ramya Namuduri and Bodun Hu and Juan Diego Rodriguez and Puyuan Peng and Greg Durrett},
+      year={2025},
+      eprint={2505.13444},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.13444}, 
+}`
 }
               </pre>
             </AccordionContent>
