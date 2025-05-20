@@ -45,7 +45,7 @@ export default function Page() {
             </Link>
             <span className="hidden md:inline">&bull;</span>
             <Link
-              href=""
+              href="https://arxiv.org/abs/2505.13444"
               target="_blank"
               className="inline-flex items-center custom-link font-medium hover:underline"
             >
