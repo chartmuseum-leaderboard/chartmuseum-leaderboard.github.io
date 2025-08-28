@@ -222,5 +222,49 @@ export const scoresData: ModelData[] = [
     overall: 63.0,
     color: "#6d28d9",
     link: "https://deepmind.google/technologies/gemini/pro/"
+  },
+  {
+    model: "GPT-5-mini (high)",
+    Size: "-",
+    visual: 52.6,
+    text: 89.4,
+    synthesis: 62.4,
+    "visual/text": 73.5,
+    overall: 63.3,
+    color: "#ed2a1c",
+    link: "https://openai.com/index/introducing-gpt-5/"
+  },
+  {
+    model: "GPT-5 (high)",
+    Size: "-",
+    visual: 53.7,
+    text: 88.6,
+    synthesis: 64.7,
+    "visual/text": 68.4,
+    overall: 62.9,
+    color: "#07871a",
+    link: "https://openai.com/index/introducing-gpt-5/"
+  },
+  {
+    model: "Claude-4-Sonnet",
+    Size: "-",
+    visual: 41.0,
+    text: 82.1,
+    synthesis: 52.6,
+    "visual/text": 62.4,
+    overall: 52.6,
+    color: "#fcde79",
+    link: "https://www.anthropic.com/news/claude-4"
+  },
+  {
+    model: "Claude-4.1-Opus",
+    Size: "-",
+    visual: 50.4,
+    text: 87.0,
+    synthesis: 54.1,
+    "visual/text": 66.2,
+    overall: 59.1,
+    color: "#d6c349",
+    link: "https://www.anthropic.com/news/claude-opus-4-1"
   }
 ];

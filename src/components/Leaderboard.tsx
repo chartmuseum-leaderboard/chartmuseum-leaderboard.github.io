@@ -69,6 +69,10 @@ export default function Leaderboard({ scoresData }: LeaderboardProps) {
   const [selectedColumns, setSelectedColumns] =
     useState<(keyof ModelData)[]>(allColumns);
   const [selectedModels, setSelectedModels] = useState<string[]>([
+    "Claude-4.1-Opus",
+    "Claude-4-Sonnet",
+    "GPT-5 (high)",
+    "GPT-5-mini (high)",
     "o3 (high)",
     "o4-mini (high)",
     "Gemini-2.5-Pro",
