@@ -75,7 +75,11 @@ export default function Page() {
             </Link>
           </div>
         </div>
+
         <div className="mb-2">
+          <div className="text-center mb-4">
+            <span className="text-rose-700 text-4xl font-bold">NeurIPS 2025</span>
+          </div>
           <div className="w-screen relative left-1/2 right-1/2 mx-[-50vw] my-8">
             <div className="flex justify-center">
               <Image
