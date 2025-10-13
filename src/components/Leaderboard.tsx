@@ -81,6 +81,9 @@ export default function Leaderboard({ scoresData }: LeaderboardProps) {
     "Bespoke-MiniChart-7B",
     "Qwen2.5-VL-72B",
     "Qwen2.5-VL-7B",
+    "GLM-4.5V",
+    "Qwen3-VL-30B-A3B-Thinking",
+    "Qwen3-VL-30B-A3B-Instruct"
   ]);
   const [sortColumn, setSortColumn] = useState<NumericDataColumn | "Size">("overall");
   const [maxNumModelsOptions, setMaxNumModelsOptions] = useState<number>(3);
@@ -516,9 +519,9 @@ const TableComponent: React.FC<TableComponentProps> = ({
     <Table className="table-fixed">
       <TableHeader>
         <TableRow>
-          <TableHead className="w-32 px-2">Model</TableHead>
+          <TableHead className="w-56 px-2">Model</TableHead>
           <TableHead 
-            className={`w-14 text-center cursor-pointer ${
+            className={`w-20 text-center cursor-pointer ${
               sortColumn === "Size" ? "text-primary" : ""
             }`}
             onClick={() => requestSort("Size")}
@@ -532,7 +535,7 @@ const TableComponent: React.FC<TableComponentProps> = ({
             <TableHead
               key={column}
               onClick={() => requestSort(column as NumericDataColumn)}
-              className={`w-14 break-words text-center cursor-pointer ${
+              className={`w-20 break-words text-center cursor-pointer ${
                 sortColumn === column ? "text-primary" : ""
               }`}
             >
@@ -549,7 +552,7 @@ const TableComponent: React.FC<TableComponentProps> = ({
             </TableHead>
           ))}
           <TableHead
-            className={`cursor-pointer w-14 break-words ${
+            className={`cursor-pointer w-20 break-words ${
               sortColumn === "overall" 
               ? "text-primary bg-accent text-accent-foreground" 
               : "bg-accent text-accent-foreground"

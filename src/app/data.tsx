@@ -266,5 +266,35 @@ export const scoresData: ModelData[] = [
     overall: 59.1,
     color: "#d6c349",
     link: "https://www.anthropic.com/news/claude-opus-4-1"
+  },
+  {
+    model: "GLM-4.5V",
+    Size: "108B",
+    visual: 32.7,
+    text: 67.5,
+    synthesis: 33.8,
+    "visual/text": 47.4,
+    overall: 40.6,
+    link: "https://huggingface.co/zai-org/GLM-4.5V"
+  },
+  {
+    model: "Qwen3-VL-30B-A3B-Thinking",
+    Size: "30B",
+    visual: 38.8,
+    text: 82.1,
+    synthesis: 47.4,
+    "visual/text": 57.7,
+    overall: 49.7,
+    link: "https://huggingface.co/Qwen/Qwen3-VL-30B-A3B-Thinking"
+  },
+  {
+    model: "Qwen3-VL-30B-A3B-Instruct",
+    Size: "30B",
+    visual: 31.4,
+    text: 73.2,
+    synthesis: 34.6,
+    "visual/text": 45.3,
+    overall: 40.2,
+    link: "https://huggingface.co/Qwen/Qwen3-VL-30B-A3B-Instruct"
   }
 ];
