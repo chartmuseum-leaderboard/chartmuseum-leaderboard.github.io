@@ -296,5 +296,65 @@ export const scoresData: ModelData[] = [
     "visual/text": 45.3,
     overall: 40.2,
     link: "https://huggingface.co/Qwen/Qwen3-VL-30B-A3B-Instruct"
-  }
+  },
+  {
+    model: "Qwen3-VL-8B-Thinking",
+    Size: "8B",
+    visual: 32.4,
+    text: 76.4,
+    synthesis: 45.9,
+    "visual/text": 53.0,
+    overall: 44.4,
+    link: "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
+  },
+  {
+    model: "Qwen3-VL-8B-Instruct",
+    Size: "8B",
+    visual: 27.8,
+    text: 70.0,
+    synthesis: 41.4,
+    "visual/text": 50.0,
+    overall: 40.0,
+    link: "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct"
+  },
+  {
+    model: "Qwen3-VL-4B-Thinking",
+    Size: "4B",
+    visual: 26.1,
+    text: 65.9,
+    synthesis: 34.6,
+    "visual/text": 43.2,
+    overall: 36.1,
+    link: "https://huggingface.co/Qwen/Qwen3-VL-4B-Thinking"
+  },
+  {
+    model: "Qwen3-VL-2B-Thinking",
+    Size: "2B",
+    visual: 20.6,
+    text: 62.6,
+    synthesis: 27.8,
+    "visual/text": 35.0,
+    overall: 30.1,
+    link: "https://huggingface.co/Qwen/Qwen3-VL-2B-Thinking"
+  },
+  {
+    model: "Qwen3-VL-2B-Instruct",
+    Size: "2B",
+    visual: 17.7,
+    text: 38.2,
+    synthesis: 18.8,
+    "visual/text": 27.8,
+    overall: 22.7,
+    link: "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct"
+  },
+  {
+    model: "Qwen3-VL-4B-Instruct",
+    Size: "2B",
+    visual: 25.3,
+    text: 71.5,
+    synthesis: 39.9,
+    "visual/text": 45.7,
+    overall: 37.7,
+    link: "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct"
+  },
 ];
