@@ -231,7 +231,6 @@ export const scoresData: ModelData[] = [
     synthesis: 62.4,
     "visual/text": 73.5,
     overall: 63.3,
-    color: "#ed2a1c",
     link: "https://openai.com/index/introducing-gpt-5/"
   },
   {
@@ -244,6 +243,17 @@ export const scoresData: ModelData[] = [
     overall: 62.9,
     color: "#07871a",
     link: "https://openai.com/index/introducing-gpt-5/"
+  },
+  {
+    model: "GPT-5.2 (high)",
+    Size: "-",
+    visual: 70.8,
+    text: 94.3,
+    synthesis: 72.2,
+    "visual/text": 84.2,
+    overall: 77.0,
+    color: "#ed2a1c",
+    link: "https://openai.com/index/introducing-gpt-5-2/"
   },
   {
     model: "Claude-4-Sonnet",
@@ -266,6 +276,16 @@ export const scoresData: ModelData[] = [
     overall: 59.1,
     color: "#d6c349",
     link: "https://www.anthropic.com/news/claude-opus-4-1"
+  },
+  {
+    model: "Claude-4.5-Opus (high)",
+    Size: "-",
+    visual: 49.8,
+    text: 92.7,
+    synthesis: 60.2,
+    "visual/text": 68.0,
+    overall: 60.7,
+    link: "https://www.anthropic.com/news/claude-opus-4-5"
   },
   {
     model: "GLM-4.5V",

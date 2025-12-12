@@ -76,11 +76,8 @@ export default function Leaderboard({ scoresData }: LeaderboardProps) {
     "o3 (high)",
     "o4-mini (high)",
     "Gemini-2.5-Pro",
-    "Claude-3.7-Sonnet",
-    "GPT-4.1",
-    "Qwen2.5-VL-72B",
+    "Claude-4.5-Opus (high)",
     "GLM-4.5V",
-    "Qwen2.5-VL-7B",
     "Qwen3-VL-30B-A3B-Thinking",
     "Qwen3-VL-30B-A3B-Instruct",
     "Qwen3-VL-8B-Thinking",
@@ -88,7 +85,8 @@ export default function Leaderboard({ scoresData }: LeaderboardProps) {
     "Qwen3-VL-4B-Thinking",
     "Qwen3-VL-4B-Instruct",
     "Qwen3-VL-2B-Thinking",
-    "Qwen3-VL-2B-Instruct"
+    "Qwen3-VL-2B-Instruct",
+    "GPT-5.2 (high)"
   ]);
   const [sortColumn, setSortColumn] = useState<NumericDataColumn | "Size">("overall");
   const [maxNumModelsOptions, setMaxNumModelsOptions] = useState<number>(3);
