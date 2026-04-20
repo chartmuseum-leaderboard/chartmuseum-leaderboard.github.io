@@ -252,7 +252,6 @@ export const scoresData: ModelData[] = [
     synthesis: 72.2,
     "visual/text": 84.2,
     overall: 77.0,
-    color: "#ed2a1c",
     link: "https://openai.com/index/introducing-gpt-5-2/"
   },
   {
@@ -376,5 +375,46 @@ export const scoresData: ModelData[] = [
     "visual/text": 45.7,
     overall: 37.7,
     link: "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct"
+  },
+  {
+    model: "Gemini-3-Flash",
+    Size: "-",
+    visual: 70.0,
+    text: 92.7,
+    synthesis: 79.7,
+    "visual/text": 89.3,
+    overall: 78.6,
+    link: "https://deepmind.google/models/gemini/flash/"
+  },
+  {
+    model: "Gemini-3.1-Pro",
+    Size: "-",
+    visual: 74.3,
+    text: 95.1,
+    synthesis: 72.9,
+    "visual/text": 91.5,
+    overall: 80.7,
+    color: "#ed2a1c",
+    link: "https://deepmind.google/models/gemini/pro/"
+  },
+  {
+    model: "Gemma-4-26B-A4B-Instruct",
+    Size: "26B",
+    visual: 60.1,
+    text: 93.5,
+    synthesis: 66.9,
+    "visual/text": 82.5,
+    overall: 70.6,
+    link: "https://huggingface.co/google/gemma-4-26B-A4B-it"
+  },
+  {
+    model: "Gemma-4-31B-Instruct",
+    Size: "31B",
+    visual: 64.1,
+    text: 88.6,
+    synthesis: 69.2,
+    "visual/text": 78.2,
+    overall: 71.1,
+    link: "https://huggingface.co/google/gemma-4-31B-it"
   },
 ];

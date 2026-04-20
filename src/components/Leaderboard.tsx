@@ -86,7 +86,11 @@ export default function Leaderboard({ scoresData }: LeaderboardProps) {
     "Qwen3-VL-4B-Instruct",
     "Qwen3-VL-2B-Thinking",
     "Qwen3-VL-2B-Instruct",
-    "GPT-5.2 (high)"
+    "GPT-5.2 (high)",
+    "Gemini-3-Flash",
+    "Gemini-3.1-Pro",
+    "Gemma-4-26B-A4B-Instruct",
+    "Gemma-4-31B-Instruct"
   ]);
   const [sortColumn, setSortColumn] = useState<NumericDataColumn | "Size">("overall");
   const [maxNumModelsOptions, setMaxNumModelsOptions] = useState<number>(3);
